@@ -1,0 +1,299 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* 
+    FONTS
+*/
+h1 {
+    font: 700 96px 'Roboto Slab', serif;
+    color: #f15048;
+}
+h2 {
+    font: 700 72px 'Roboto Slab', serif;
+}
+h3 {
+    font: 700 48px 'Roboto Slab', serif;
+}
+h5 {
+    font: 700 16px 'Open Sans', sans-serif;
+}
+h6{ 
+    font: 400 18px 'Roboto', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+p, ul {
+    font: italic 400 14px 'Open Sans', sans-serif;
+    line-height: 1.6;
+}
+.btn {
+    transition: all 0.4s ease;
+    background: #f15048;
+    color: #fff;
+    border-radius: 24px;
+    font: 700 14px 'Open Sans', sans-serif;
+    padding: 10px 30px;
+    text-transform: uppercase;
+    border: none;
+}
+.btn:hover {
+    border: none;
+    background: #ef342b;
+    color: #e6e6e6;
+}
+/* 
+    Beats Solo 3
+*/
+.product__main_card{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    height: 776px;
+    background: url('../img/beats_main_bg.png') center / cover no-repeat;
+}
+/* Beats Wrapper */
+.product__wrapper {
+    margin: 0 381px;
+    margin-bottom: 80px;
+}
+/* Beats Logo */
+.product__logo {
+    margin-top: 54px;
+    margin-bottom: 133px;
+}
+.product__logo_img {
+    width: 18%;
+}
+/* Product Slogan */
+.product__slogan {
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    align-items: end;
+    justify-content: end;
+    margin-left: 494px;
+}
+.product__slogan_title {
+    text-align: center;
+    line-height: 1.1;
+    margin-right: 20px;
+}
+.product__slogan_subtitle {
+    color: #fff;
+    text-align: right;
+    line-height: 1.1;
+}
+.product__slogan_title, .product__slogan_subtitle, .product__slogan_description {
+    margin-left: 20px;
+}
+.product__slogan_description{
+    margin: 20px 0!important;
+    margin-left: 96px!important;
+    text-align: right;
+}
+/* 
+    Product Info
+*/
+.product__info {
+    padding: 124px 381px;
+    display: flex;
+    flex: 1;
+}
+/* Product Info Content */
+.product__info_content {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    flex: 1;
+    padding-left: 20px;
+}
+.product__info_title {
+    line-height: 1.1;
+}
+.product__info_subtitle {
+    margin: 20px 0 8px 0;
+}
+.product__info_description {
+    margin: 0 0 20px 0;
+    line-height: 1.6;
+}
+/* Product Info Img */
+.product__info__photo {
+    flex: 1 1 0;
+}
+.product__info__photo_img {
+    width: 752px;
+    height: 732px;
+    margin: -220px -140px -65px 0px;
+}
+/* 
+    Product Comfort
+*/
+.product__comfort {
+    padding: 0 381px;
+    padding-top: 50px;
+    padding-bottom: 60px;
+    height: 565px;
+    display: flex;
+    justify-content: center;
+    gap: 13px;
+}
+/* Product Comfort Info */
+.product__comfort_info {
+    background: url('../img/beats_logo_2.png') center / cover no-repeat;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: start;
+}
+/* Product Comfort Img */
+.product__comfort_img {
+    background: url('../img/beats_girl.jpeg') 100% 100% / cover no-repeat;
+    width: 100%;
+    flex: 1;
+}
+/* 
+    Product Video
+*/
+.product__video {
+    background: url('https://i.ytimg.com/vi_webp/MlCqfK09u7A/sddefault.webp') center / cover no-repeat;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    color: #fff;
+}
+/* 
+    Product Overview
+*/
+.product__overview {
+    height: 535px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: url('../img/beats_music.png') center / cover no-repeat;
+}
+.product__overview__wrapper {
+    margin: 0 381px;
+    padding-left: calc(694px + 20px);
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    gap: 20px;
+}
+.product__overview_title {
+    line-height: 1.1;
+}
+/* 
+    Product Colors
+*/
+.product__colors {
+    padding: 60px 381px;
+    text-align: center;
+}
+.product__colors__assort_item {
+    padding: 0 20px;
+}
+/* Product Colors Text */
+/* Product Colors Assort */
+.product__colors__assort {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+/* 
+    Product Highlights
+*/
+.product__highlights {
+    padding: 60px 381px 10px 381px;
+    display: flex;
+    height: 628px;
+    justify-content: center;
+    gap: 60px;
+}
+/* Product Highlights Img */
+.product__highlights_img {
+    background: url('../img/beats_microphone.png') center / cover no-repeat;
+    flex: 1;
+    width: 100%;
+}
+/* Product Highlights Inform */
+.product__highlights__inform {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: start;
+    justify-content: center;
+    flex: 1;
+}
+.product__highlights_list, .product__specs_manufacture_list, .product__specs_features_list {
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+}
+/* 
+    Product Photos
+*/
+.product__photos {
+    height: 760px;
+    display: flex;
+}
+/* Product Photos Content */
+.product__photos__content {
+    background: url('../img/beats_headphones_2.png') center / cover no-repeat;
+    flex: 1;
+}
+/* Product Photos Content 2 */
+.product__photos__content_2_block {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+.product__photos__content_2_item {
+    height: 100%;
+    background: url('../img/beats_headphones_3.png') center / cover no-repeat;
+}
+.product__photos__content_2_item_2 {
+    height: 100%;
+    background: url('../img/beats_headphones_4.png') center / cover no-repeat;
+}
+/* 
+    Product Specs
+*/
+.product__specs {
+    padding: 53px 381px 60px 381px;
+    display: flex;
+    gap: 20px;
+}
+/* Product Specs Img */
+.product__specs_img {
+    width: 100%;
+    background: url('../img/beats_headphones_5.png') center / contain no-repeat;
+    flex: 1;
+}
+/* Product Specs Inform */
+.product__specs__inform {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    flex: 1;
+}
+.product__specs_features {
+    flex: 1;
+}
+.product__specs_features_title {
+    margin-top: 82px;
+}
+.product__specs__inform_content {
+    display: flex;
+    gap: 40px;
+}
